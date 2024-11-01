@@ -18,6 +18,9 @@ Created on Wed Oct 30 10:27:50 2024
 
 """
 
+import pyodide
+await pyodide.loadPackage("numpy")
+
 import random as rand
 
 import numpy as np
